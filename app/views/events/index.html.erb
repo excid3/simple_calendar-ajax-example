@@ -1,8 +1,8 @@
 <h1>Listing events</h1>
 
-<%= month_calendar do |date| %>
-  <%= date %>
-<% end %>
+<div id="events_calendar">
+  <%= render partial: "calendar", locals: {events: @events} %>
+</div>
 
 <table>
   <thead>

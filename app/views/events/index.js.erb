@@ -1,0 +1,1 @@
+$("#events_calendar").html("<%= escape_javascript render(partial: "calendar", locals: {events: @events}) %>");
