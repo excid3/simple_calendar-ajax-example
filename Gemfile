@@ -39,5 +39,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # Add simple_calendar to Gemfile
-# Locking at 1.1.3 to ensure Rails 4.2 upgrade works
-gem 'simple_calendar', '~> 1.1.3'
+gem 'simple_calendar', '~> 2.0'
