@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>SimpleCalendarAjaxExample</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>SimpleCalendarAjaxExample</title>
+    <%= csrf_meta_tags %>
 
-<%= yield %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'http://code.jquery.com/jquery-3.2.1.slim.min.js', 'data-turbolinks-track': 'reload' %>
+  </head>
 
-</body>
+  <body>
+    <%= yield %>
+  </body>
 </html>
